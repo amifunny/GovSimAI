@@ -1,0 +1,41 @@
+# -------- OS / editor --------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# -------- Environment / secrets --------
+.env
+.env.*
+!.env.example
+
+# -------- Logs --------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -------- Python backend --------
+backend/.venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/data/memory.json
+backend/qdrant_data/
+
+# -------- Node / Next frontend --------
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# -------- Build / cache --------
+.cache/
+coverage/
+
+# -------- Optional local DB / binaries --------
+*.sqlite3
+*.db
